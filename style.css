@@ -100,9 +100,13 @@ nav ul li {
 }
 
 .heroimg {
-  height: 20%; /*30.5rem     37.5rem*/
-  width: 20%; 
+  height: 30.5rem;
+  width: 30.5rem;
 }
+/*.heroimg {
+  height: 20%; 30.5rem     37.5rem
+  width: 20%; 
+} */
 
 .bio {
   width: 25rem;
