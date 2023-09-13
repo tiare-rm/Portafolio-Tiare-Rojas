@@ -6,9 +6,9 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
+  --primary-color: #851961;
+  --secondary-color: #db76d6;
+  --primary-shadow: #545a97;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
@@ -124,7 +124,7 @@ nav ul li {
   padding: 0.3rem 0;
 }
 
-/*mas de mi*/
+/*mas sobre mi*/
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
