@@ -152,13 +152,15 @@ nav ul li {
   margin-bottom: 1rem;
 }
 
-.skills-wrapper img {
+.skills-wrapper img { /*section que contiene las habilidades*/
   padding: 1.25rem;
+  box-shadow: 8px 5px 5px var(--primary-shadow)
 }
 
-.icon {
+.icon { /*imagenes de las habilidades*/
   width: 11.875rem;
   height: 11.25rem;
+  box-shadow: 5px 5px 10px var(--primary-shadow);
 }
 
 /*proyectos*/
