@@ -140,7 +140,7 @@ nav ul li {
   padding: 0.4rem;
 }
 
-/*habilidades*/ 
+/*habilidades*/
 .skills {
   max-width: 68.75rem;
   margin: auto;
@@ -152,12 +152,14 @@ nav ul li {
   margin-bottom: 1rem;
 }
 
-.skills-wrapper img { /*section que contiene las habilidades*/
+.skills-wrapper img {
+  /*section que contiene las habilidades*/
   padding: 1.25rem;
-  box-shadow: 8px 5px 5px var(--primary-shadow)
+  box-shadow: 8px 5px 5px var(--primary-shadow);
 }
 
-.icon { /*imagenes de las habilidades*/
+.icon {
+  /*imagenes de las habilidades*/
   width: 11.875rem;
   height: 11.25rem;
   box-shadow: 5px 5px 10px var(--primary-shadow);
@@ -204,7 +206,7 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
 }
 
-/*sección contacto*/ 
+/*sección contacto*/
 .contact {
   margin-top: 2rem;
 }
@@ -237,7 +239,6 @@ nav ul li {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
   border-radius: 5px;
   border: none;
   border: 2px outset var(--primary-color);
@@ -340,7 +341,7 @@ nav ul li {
   nav ul.show {
     transform: translateX(0);
   }
-
+/*
   .hero {
     margin-top: -4rem;
     flex-direction: column;
@@ -356,7 +357,25 @@ nav ul li {
     margin-top: -7rem;
     width: 20.5rem;
   }
+*/
+.hero {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
+.hero img {
+  margin-bottom: 1rem; 
+}
+
+.bio {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.bio-title, .bio-text {
+  width: 100%; 
+}
   .more-about {
     margin-top: 2rem;
     padding: 1rem 3.5rem;
@@ -374,20 +393,30 @@ nav ul li {
     width: 5.875rem;
     height: 5.25rem;
   }
-
-  .projects-container {
-    flex-direction: column;
+  .skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
   }
 
-  .project-container {
-    width: 20.875rem;
+  .skills-wrapper img {
+    width: 8rem;
+    height: 7.5rem;
   }
 
-  .contact-form-container {
-    max-width: 23.75rem;
-  }
+.projects-container {
+  flex-direction: column;
 }
 
+.project-container {
+  width: 20.875rem;
+}
+
+.contact-form-container {
+  max-width: 23.75rem;
+}
+}
 @media screen and (max-width: 420px) {
   .hero img {
     height: 37.5rem;
@@ -402,6 +431,10 @@ nav ul li {
     width: 17.875rem;
   }
 
+  .skills-wrapper img {
+    width: 7.5rem;
+    height: 7rem;
+  }
   .contact-form-container {
     max-width: 17.75rem;
   }
