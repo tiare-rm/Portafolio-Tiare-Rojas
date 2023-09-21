@@ -97,11 +97,13 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  flex-direction: column; /*coloque ultimo*/
 }
 
 .heroimg {
   height: 27.5rem;
   width: 27.5rem;
+  max-width: 100%;/*coloque ultimo*/
 }
 /*.heroimg {
   height: 20%; 30.5rem     37.5rem
@@ -113,6 +115,7 @@ nav ul li {
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  margin-top: 2rem;/*coloque ultimo*/
 }
 
 .bio h1 {
@@ -173,8 +176,8 @@ nav ul li {
 }
 
 .project-pic {
-  width: 65%;
-  height: 60%;
+  width: 70%;
+  height: 65%;
 }
 
 .projects-container {
@@ -341,6 +344,7 @@ nav ul li {
   nav ul.show {
     transform: translateX(0);
   }
+
   .hero {
     margin-top: -4rem;
     flex-direction: column;
@@ -348,35 +352,19 @@ nav ul li {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
-  }
-
-  .bio {
-    margin-top: -7rem;
-    width: 20.5rem;
-  }
-  /*
-  .hero {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .hero img {
-    margin-bottom: 1rem;
-  }
-
-  .bio {
-    margin-top: 1rem;
-    text-align: center;
-  }
-
-  .bio-title,
-  .bio-text {
+    height: auto;
     width: 100%;
+    /*height: 37.5rem;
+    width: 30rem; coloque ultimo*/
   }
-  */
+
+  .bio {
+    width: 100%;
+    margin-top: 1rem;
+    /* margin-top: -7rem;
+    width: 20.5rem; */
+  }
+ 
   .more-about {
     margin-top: 2rem;
     padding: 1rem 3.5rem;
@@ -420,12 +408,16 @@ nav ul li {
 }
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 27.5rem;
-    width: 23rem;
+    height: auto;
+    width: 100%;
+    /* height: 27.5rem;
+    width: 23rem; coloque ultimo */
   }
 
   .bio {
-    width: 18.3rem;
+    width: 100%;
+    margin-top: 1rem;
+    /* width: 18.3rem; coloque ultimo*/
   }
 
   .project-container {
