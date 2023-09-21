@@ -1,0 +1,14 @@
+{
+  "name": "portafolio-tiare-rojas",
+  "version": "1.0.0",
+  "description": ":open_file_folder: Portafolio en donde se muestran mis proyectos web y la actualización de mis trabajos Tech.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start",
+    "build": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
